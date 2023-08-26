@@ -1,0 +1,38 @@
+/* *{
+  background-color: black;
+} */
+.info-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.info-card-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100px;
+  height: auto;
+}
+
+.info-container {
+  flex: 1;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+  

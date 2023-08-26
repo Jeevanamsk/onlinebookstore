@@ -1,0 +1,37 @@
+/* *{
+  background-color: black;
+} */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.books-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.books-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.book {
+  flex: 1;
+  max-width: calc(16.66% - 10px); /* 16.66% to fit 6 items per row with 10px gap */
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.book img:hover {
+  transform: scale(1.1);
+}
